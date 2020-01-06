@@ -11,9 +11,9 @@ jobs:
 - deployment: DeployWeb
   displayName: deploy Web App
   pool:
-    vmImage: 'Ubuntu-latest'
+    vmImage: 'ubuntu-latest'
   # creates an environment if it doesn't exist
-  environment: 'smarthotel-dev'
+  environment: 'test-env'
   strategy:
     # default deployment strategy, more coming...
     runOnce:
