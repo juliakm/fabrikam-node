@@ -20,3 +20,4 @@ jobs:
       deploy:
         steps:
         - script: echo my first deployment
+        - script: echo $(build.containerId)
