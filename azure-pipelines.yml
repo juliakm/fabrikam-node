@@ -21,3 +21,4 @@ jobs:
         steps:
         - script: echo my first deployment
         - script: echo $(build.containerId)
+        - script: echo $(Build.BuildId)
